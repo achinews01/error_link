@@ -1,0 +1,44 @@
+<!--DOCTYPE html--><html><head></head>
+<body><script src="https://cdn.wapka.io/009gr4/1ea753a185317bb3d8d307bfb87c0be9/jwplayerkbtv.js"></script>
+
+<style>
+  
+body {
+  background: #000;
+  padding: 0;
+  margin: 0;
+  }
+  
+#player {
+  height: 100vh !important;
+  }
+  
+</style>
+<div id="player"></div>
+<style type="text/css">*{margin:0;padding:0;outline:none;}#container{position:absolute;width:100%!important;height:50%!important;}*:focus{outline:none;}</style>
+
+
+<script type="text/javascript">
+jwplayer('player').setup({
+  playlist: [{
+		    title: "Golive",
+		    //description: "###",
+		    image: "https://media.tenor.com/w7AvGcoQEcIAAAAC/go-live-asdp.gif",
+		    sources: [{
+		    file: "https://cdnjkt2.transvision.co.id:1001/live/master/2/4028c6856c3db2cc016cd6e647532391/manifest.mpd", 
+              drm: { 
+                clearkey: 
+                { "keyId": "4c467a737445684c4974426f556c7579", "key": "4547737a78565152376f4e3861636541" } },
+              
+		      label: '720p',
+		      'type': 'mpd',
+		      primary: 'html5',
+
+		    }
+		    ],
+		    
+		  }]
+		});
+
+</script>
+</body></html>
